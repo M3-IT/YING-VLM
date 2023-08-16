@@ -1,6 +1,6 @@
 # YING-VLM
 
-We open-sourced the trained checkpoint and infernce code of YING-VLM, which is trained on [M3IT](https://huggingface.co/datasets/MMInstruction/M3IT) dataset.
+We open-sourced the trained checkpoint and infernce code of [YING-VLM](https://huggingface.co/MMInstruction/YingVLM) at huggingface, which is trained on [M3IT](https://huggingface.co/datasets/MMInstruction/M3IT) dataset.
 
 
 # Example of Using YING-VLM
@@ -8,6 +8,10 @@ We open-sourced the trained checkpoint and infernce code of YING-VLM, which is t
 Please install the following packages:
 - torch==2.0.0
 - transformers==4.31.0
+
+
+
+Infernce example:
 
 ```python
 from transformers import AutoProcessor, AutoTokenizer
