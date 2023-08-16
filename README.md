@@ -4,6 +4,11 @@ We open-sourced the trained checkpoint and infernce code of YING-VLM, which is t
 
 
 # Example of Using YING-VLM
+
+Please install the following packages:
+- torch==2.0.0
+- transformers==4.31.0
+
 ```python
 from transformers import AutoProcessor, AutoTokenizer
 from PIL import Image
