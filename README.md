@@ -3,7 +3,7 @@
 We open-sourced the trained checkpoint and inference code of [YING-VLM](https://huggingface.co/MMInstruction/YingVLM) at huggingface, which is trained on [M3IT](https://huggingface.co/datasets/MMInstruction/M3IT) dataset.
 
 
-# Example of Using YING-VLM
+## Example of Using YING-VLM
 
 Please install the following packages:
 - torch==2.0.0
@@ -11,7 +11,7 @@ Please install the following packages:
 
 
 
-Inference example:
+### Inference example:
 
 ```python
 from transformers import AutoProcessor, AutoTokenizer
@@ -70,7 +70,7 @@ print(generated_text)
 
 
 
-# Refernce
+## Refernce
 
 If you find our work useful, please kindly cite
 ```bib
