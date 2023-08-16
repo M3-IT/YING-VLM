@@ -3,6 +3,18 @@
 We open-sourced the trained checkpoint and inference code of [YING-VLM](https://huggingface.co/MMInstruction/YingVLM) at huggingface, which is trained on [M3IT](https://huggingface.co/datasets/MMInstruction/M3IT) dataset.
 
 
+<br>
+
+<div align=center>
+<b>Demo of Ying-VLM, compareing to other VLM</b>
+<br>
+
+<img width="800" src="./imgs/demo.png"/>
+
+</div>
+
+<br><br>
+
 ## Example of Using YING-VLM
 
 Please install the following packages:
