@@ -11,7 +11,7 @@ Please install the following packages:
 
 
 
-Infernce example:
+Inference example:
 
 ```python
 from transformers import AutoProcessor, AutoTokenizer
