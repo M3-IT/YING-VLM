@@ -1,6 +1,6 @@
 # YING-VLM
 
-We open-sourced the trained checkpoint and infernce code of [YING-VLM](https://huggingface.co/MMInstruction/YingVLM) at huggingface, which is trained on [M3IT](https://huggingface.co/datasets/MMInstruction/M3IT) dataset.
+We open-sourced the trained checkpoint and inference code of [YING-VLM](https://huggingface.co/MMInstruction/YingVLM) at huggingface, which is trained on [M3IT](https://huggingface.co/datasets/MMInstruction/M3IT) dataset.
 
 
 # Example of Using YING-VLM
