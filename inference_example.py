@@ -1,13 +1,6 @@
-# YING-VLM
-
-We open-sourced the trained checkpoint and infernce code of YING-VLM, which is trained on [M3IT](https://huggingface.co/datasets/MMInstruction/M3IT) dataset.
-
-
-# Example of Using YING-VLM
-```python
 from transformers import AutoProcessor, AutoTokenizer
-from PIL import Image
 import torch
+from PIL import Image
 
 from modelingYING import VLMForConditionalGeneration
 
@@ -53,22 +46,3 @@ generated_text = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
 print(generated_text)
 # The couch in the living room is green.
 
-
-
-
-
-```
-
-
-
-# Refernce
-
-If you find our work useful, please kindly cite
-```bib
-@article{li2023m3it,
-  title={M$^3$IT: A Large-Scale Dataset towards Multi-Modal Multilingual Instruction Tuning},
-  author={Lei Li and Yuwei Yin and Shicheng Li and Liang Chen and Peiyi Wang and Shuhuai Ren and Mukai Li and Yazheng Yang and Jingjing Xu and Xu Sun and Lingpeng Kong and Qi Liu},
-  journal={arXiv preprint arXiv:2306.04387},
-  year={2023}
-}
-```
