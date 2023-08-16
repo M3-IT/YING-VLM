@@ -70,7 +70,7 @@ print(generated_text)
 
 
 
-## Refernce
+## Reference
 
 If you find our work useful, please kindly cite
 ```bib
