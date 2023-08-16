@@ -34,7 +34,7 @@ prompt_template = """
 
 # load processor and tokenizer
 processor = AutoProcessor.from_pretrained("MMInstruction/YingVLM")
-tokenizer = AutoTokenizer.from_pretrained("MMInstruction/YingVLM") # ziya is not available right now 
+tokenizer = AutoTokenizer.from_pretrained("MMInstruction/YingVLM") 
 
 
 # load model
